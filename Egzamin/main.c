@@ -62,7 +62,10 @@ void zadanie_2_8()
    int odjemna  = 24;
    int odjemnik = 15;
    int wynik;
-   //
+   // ~odjemnik -> neguje wszystkie bity w zmiennej "odjemnik"
+   // operacje odejmowania mozna zamienic na operacje dodawania
+   // odjemnik musi byc zamieniony na wartosc w kodzie uzupelnien do 2
+   // czyli odjemnik -> ~odjemnik + 1
    wynik = odjemna + ~odjemnik + 1;
    
    printf("%d\n", wynik);
